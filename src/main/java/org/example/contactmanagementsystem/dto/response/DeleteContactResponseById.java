@@ -1,2 +1,9 @@
-package org.example.contactmanagementsystem.dto.response;public class DeleteContactResponseById {
+package org.example.contactmanagementsystem.dto.response;
+
+import lombok.Data;
+
+@Data
+public class DeleteContactResponseById {
+    private String message;
+
 }

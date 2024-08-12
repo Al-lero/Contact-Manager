@@ -1,4 +1,4 @@
-package org.example.contactmanagementsystem.dto;
+package org.example.contactmanagementsystem.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ContactDto {
-    private Long id;
+    private String id;
     private String firstName;
     private String lastName;
     private String phoneNumber;

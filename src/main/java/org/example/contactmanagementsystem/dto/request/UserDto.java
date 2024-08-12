@@ -1,4 +1,4 @@
-package org.example.contactmanagementsystem.dto;
+package org.example.contactmanagementsystem.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

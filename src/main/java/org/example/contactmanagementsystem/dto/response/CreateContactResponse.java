@@ -1,2 +1,8 @@
-package org.example.contactmanagementsystem.dto.response;public class CreateContactResponse {
+package org.example.contactmanagementsystem.dto.response;
+
+import lombok.Data;
+
+@Data
+public class CreateContactResponse {
+    private String message;
 }
